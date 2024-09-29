@@ -1,0 +1,111 @@
+db.clients.insertOne({
+  "id_client": "client001",
+  "name": "María",
+  "surname": "González",
+  "address": {
+    "street": "Calle del Sol",
+    "number": "12"
+  },
+  "postal_code": "28001",
+  "city": "Madrid",
+  "province": "Madrid",
+  "mobile_phone": "612345678",
+  "orders_made": [
+    {
+      "id_order": "order001",
+      "order_time": ISODate("2024-06-26T21:15:25Z"),
+      "order_type": "Delivery",
+      "delivered_by": {
+        "id_employee": "employee001",
+        "name": "Carlos",
+        "surname": "Pérez",
+        "nif": "12345678Z",
+        "duty": "Cook"
+      },
+      "when_delivered": ISODate("2024-06-26T21:55:35Z"),
+      "order_details": [
+        {
+          "product": {
+            "id_product": "product001",
+            "category": "Pizza",
+            "name": "Pizza Margarita (Thin dough)",
+            "description": "Our most classic pizza, simple and yummy: dough, cheese, tomato and basil",
+            "image": "margarita.jpg",
+            "prize": 8
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id_product": "product002",
+            "category": "Pizza",
+            "name": "Pizza BBQ (Normal dough)",
+            "description": "For BBQ lovers, BBQ sauce, beef, bacon, chicken and our dough",
+            "image": "bbqpizza.jpg",
+            "prize": 12
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id_product": "product003",
+            "category": "Hamburguer",
+            "name": "Cheese Hamburguer",
+            "description": "Our most classic hamburguer, beef patty with cheddar cheese, pickles and ketchup",
+            "image": "cheeseburguer.jpg",
+            "prize": 6
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id_product": "product004",
+            "category": "Hamburguer",
+            "name": "Double Hamburguer",
+            "description": "Double beef patty with lettuce, cheese, and pickles, with mustard and ketchup",
+            "image": "doubleburguer.jpg",
+            "prize": 8
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id_product": "product005",
+            "category": "Drink",
+            "name": "Water",
+            "description": "0.50L Bezoya mineral water",
+            "image": "water.jpg",
+            "prize": 2
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id_product": "product006",
+            "category": "Drink",
+            "name": "Coke",
+            "description": "0.50L Coca-Cola bottle",
+            "image": "coke.jpg",
+            "prize": 2.5
+          },
+          "quantity": 2
+        }
+      ],
+      "order_amount": 61,
+      "customer_info": "We don't have elevator!",
+      "order_status": "Delivered",
+      "order_payment": "Paid",
+      "shop": {
+        "id_shop": "shop001",
+        "address": {
+          "street": "Calle Mayor",
+          "number": "1"
+        },
+        "postal_code": "28013",
+        "city": "Madrid",
+        "province": "Madrid"
+      }
+    }
+  ]
+});
+

@@ -1,0 +1,44 @@
+use optica
+
+db.getCollection("Clientes").insertOne({
+  name: "Client Name",
+  address: {
+    street: "Right Street",
+    number: "123",
+    city: "City C",
+    postal_code: "54680", 
+    country: "Perú"
+  },
+  telephone: "678921235",
+  email: "email@email.com",
+  register_date: new Date("2023-09-23"),  
+  recommended: null,
+  last_shopping: {
+    brand: "Rayban",
+    lens_graduation: {
+      left: 2.3,
+      right: 2.0
+    },
+    lens_color: {
+      left: "Color1",
+      right: "Color2"
+    },
+    frame_type: "Metallic",
+    price: NumberDecimal("127.0"), 
+    provider: {
+      name: "Googles Associated SL",
+      address: {
+        street: "Main Street", 
+        number: "45", 
+        floor: "1", 
+        door: "A", 
+        city: "Paris", 
+        postal_code: "75001",
+        country: "France"
+      },
+      phone_number: "654789321",
+      nif: "B12345678"
+    }
+  }
+});
+

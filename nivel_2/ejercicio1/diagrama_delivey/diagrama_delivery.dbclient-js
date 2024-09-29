@@ -1,0 +1,68 @@
+{
+  "clients": {
+    "id_client": "String",
+    "name": "String",
+    "surname": "String",
+    "address": {
+      "street": "String",
+      "number": "String"
+    },
+    "postal_code": "String",
+    "city": "String",
+    "province": "String",
+    "mobile_phone": "String",
+    "orders_made": [
+      "String"  
+    ],
+    "products": [
+      {
+        "category": "String",
+        "name": "String",
+        "description": "String",
+        "image": "String",
+        "price": "Number"
+      }
+    ],
+    "orders": [
+      {
+        "order_time": "Date",
+        "order_type": "String",
+        "delivered_by": "String",
+        "when_delivered": "Date",
+        "order_details": [
+          {
+            "product_id": "String",
+            "quantity": "Number"
+          }
+        ],
+        "order_amount": "Number",
+        "customer_info": "String",
+        "shop": [
+          "String"   
+        ]
+      }
+    ],
+    "employees": [
+      {
+        "name": "String",
+        "surname": "String",
+        "nif": "String",
+        "duty": "String"
+      }
+    ],
+    "shops": [
+      {
+        "address": {
+          "street": "String",
+          "number": "String"
+        },
+        "postal_code": "String",
+        "city": "String",
+        "province": "String",
+        "employees": [
+          "String"  
+        ]
+      }
+    ]
+  }
+}
