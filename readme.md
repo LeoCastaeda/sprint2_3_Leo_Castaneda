@@ -4,7 +4,8 @@
 ![mongodb](https://www.opc-router.com/wp-content/uploads/2021/03/mongodb_thumbnail.png)
 ![moon modeler](https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/487b2655-8eea-4321-9ec0-3034b4444be3.png?auto=format&q=50&fit=fill)
 
-En este sprint, trabajé en el diseño y gestión de una base de datos utilizando diferentes herramientas de MongoDB. El objetivo fue modelar una base de datos para una óptica llamada "Cul d'Ampolla", donde se almacenan información de clientes, productos (gafas), proveedores y compras realizadas.
+En este sprint, trabajé en el diseño y gestión de una base de datos utilizando diferentes herramientas de MongoDB. El objetivo fue modelar una base de datos para una óptica llamada "Cul d'Ampolla", donde se almacenan información de clientes, productos (gafas), proveedores y compras realizadas en el primer ejercicio.
+En el siguiente nivel, trabajé en el diseño de una base de datos para un servicio de delivery, donde se almacena información sobre clientes, productos (pizzas y hamburguesas), pedidos, tiendas y empleados.
 
 ## Herramientas Utilizadas
 
@@ -16,13 +17,21 @@ En este sprint, trabajé en el diseño y gestión de una base de datos utilizand
 
 ## Estructura de la Base de Datos
 
-La base de datos se compone de las siguientes colecciones:
+**1.** La base de datos "optica" se compone de las siguientes colecciones :
 
 - **Clientes**: Contiene información sobre los clientes, como nombre, dirección, teléfono, correo electrónico y detalles de las compras realizadas.
 
 - **Gafas**: Almacena información sobre las gafas, incluyendo marca, tipo de marco, graduación de lentes, color de lentes, precio y proveedor.
 
 - **Proveedores**: Incluye detalles sobre los proveedores de las gafas, como nombre, dirección, teléfono y NIF.
+
+**2.** En el segundo ejercicio, diseñé una base de datos para un servicio de delivery. Esta base de datos se compone de las siguientes colecciones:
+
+- **Clientes**: Información sobre los clientes, incluyendo nombre, dirección, número de teléfono y pedidos realizados.
+- **Productos**: Detalles sobre los productos ofrecidos, como pizzas, hamburguesas y bebidas, junto con descripciones y precios.
+- **Pedidos**: Registro de los pedidos realizados por los clientes, incluyendo detalles del pedido, monto total y estado del mismo.
+- **Tiendas**: Información sobre las tiendas que realizan las entregas, incluyendo dirección y empleados asignados.
+- **Empleados**: Detalles sobre los empleados que trabajan en las tiendas, como nombre, apellidos y funciones.  
 
 ## Proceso de Trabajo
 
