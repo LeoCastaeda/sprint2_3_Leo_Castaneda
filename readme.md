@@ -36,6 +36,6 @@ La base de datos se compone de las siguientes colecciones:
 ## Conclusión
 
 Este sprint me permitió adquirir experiencia práctica en el diseño y gestión de bases de datos en MongoDB. Las herramientas utilizadas facilitaron el proceso de modelado, inserción y verificación de datos, lo que resultó en un proyecto estructurado y bien organizado.
-"""
+ 
 
 
