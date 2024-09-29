@@ -3,6 +3,7 @@
 ## Introducción
 ![mongodb](https://www.opc-router.com/wp-content/uploads/2021/03/mongodb_thumbnail.png)
 ![moon modeler](https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/487b2655-8eea-4321-9ec0-3034b4444be3.png?auto=format&q=50&fit=fill)
+
 En este sprint, trabajé en el diseño y gestión de una base de datos utilizando diferentes herramientas de MongoDB. El objetivo fue modelar una base de datos para una óptica llamada "Cul d'Ampolla", donde se almacenan información de clientes, productos (gafas), proveedores y compras realizadas.
 
 ## Herramientas Utilizadas
